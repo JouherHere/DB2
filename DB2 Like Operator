@@ -35,7 +35,7 @@ SELECT columnA, columnB, columnC, ...
     
   7. WHERE Employer LIKE 't__%'	
   
-    Finds any values that start with "T" and are at least 3 characters in length
+    Finds any values that start with "t" and are at least 3 characters in length
 
 
 

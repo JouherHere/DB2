@@ -1,4 +1,4 @@
-//Used to match parts of a value in the where clause. Used only with text fields/strings.//
+//Used to match parts of a value in the where clause. Used only with text fields or strings.//
 
 Syntax:
 

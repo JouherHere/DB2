@@ -1,0 +1,43 @@
+//Used to match parts of a value in the where clause. Used only with text fields/strings.//
+
+Syntax:
+
+SELECT columnA, columnB, columnC, ...
+  FROM tablename
+  WHERE columnN LIKE pattern;
+  
+  
+  //We can use different patterns as per our needs//
+  
+  1. WHERE EmployeeName LIKE 'a%'
+  
+    Finds any values that start with "a"
+    
+  2. WHERE Project LIKE '%it%'
+  
+    Finds any values that have "it" in any position
+    
+  3. WHERE EmployeeName LIKE 's_%'
+  
+    Finds any values that start with "s" and are at least 2 characters in length
+    
+  4. WHERE Project LIKE 'b%t'	
+  
+    Finds any values that start with "b" and ends with "t"
+    
+  5. WHERE EmployeeName LIKE '%v'	
+  
+    Finds any values that end with "v"
+    
+  6. WHERE Project LIKE '_i%'	
+  
+    Finds any values that have "i" in the second position
+    
+  7. WHERE Employer LIKE 't__%'	
+  
+    Finds any values that start with "T" and are at least 3 characters in length
+
+
+
+
+
